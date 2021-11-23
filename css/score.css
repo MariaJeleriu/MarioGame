@@ -1,0 +1,78 @@
+#container {
+	width: 600px;
+	height: auto;
+	background: #2596be;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+	display: none;
+    
+}
+
+.row {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+	width: 75%;
+	line-height: 45px;
+}
+
+.score {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+}
+.sendScore{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 100px;
+}
+.coin {
+	position:relative;
+	margin: auto;
+    align-items: center;
+	width: 60px;
+	height: 60px;
+	background: url('https://i.imgur.com/qf3II7G.png') left center ;
+	animation: play 2s steps(10) infinite;
+}
+
+@keyframes play {
+	100% {
+		background-position: -260px;
+	}
+}
+h1{
+    text-align:center;
+
+}
+
+body{
+    background-color: black;
+}
+
+.submit{
+	background-color:#2596be ;
+	border-radius: 5px;
+	color: white;
+}
+
+.button{width: 150px;
+	height: 50px;
+	justify-content: center;
+	margin:auto;
+	background: #a79923;
+    align-items: center;
+    border-radius: 10px;
+	display: none;
+}
+a {text-decoration: none; 
+	color:black;
+}

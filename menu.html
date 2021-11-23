@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Menu</title>
+</head>
+<body>
+    <h1>
+        <img src='img/super.png'>
+    </h1>
+    <div class="row" id="row">
+		<div class="block card">
+			<div id="pane">
+				<div data-number="1" id="coiner" class="one active InsideContent coin"></div>
+				<div id="menu-item" class="InsideContent">New Game
+				</div>
+			</div>
+            <div id="pane">
+				<div data-number="7" id="coiner" class="three InsideContent" style="display:none;"></div>
+				<div id="menu-item" class="InsideContent">How to play
+				</div>
+			</div>   
+			<div id="pane">
+				<div data-number="2" id="coiner" class="two InsideContent" style="display:none;"></div>
+				<div id="menu-item" class="InsideContent">Options
+				</div>
+			</div>
+			<div id="pane">
+				<div data-number="3" id="coiner" class="three InsideContent" style="display:none;"></div>
+				<div id="menu-item" class="InsideContent">Exit
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="row" id="row2" style="display: none;">
+        <div class="block card">
+            <div id="pane">
+                <div data-number="4" id="coiner" class="one active InsideContent coin"></div>
+                <div id="menu-item" class="InsideContent">Standard game
+                </div>
+            </div>
+            <div id="pane">
+                <div data-number="5" id="coiner" class="two InsideContent" style="display:none;"></div>
+                <div id="menu-item" class="InsideContent">No coin collect
+                </div>
+            </div>
+            <div id="pane">
+                <div data-number="6" id="coiner" class="two InsideContent" style="display:none;"></div>
+                <div id="menu-item" class="InsideContent">No enemy touch
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="row3" style="display: none;">
+        <div class="block card">
+            <div id="pane">
+                <div data-number="8" id="coiner" class="two InsideContent" style="display:none;"></div>
+                <div id="menu-item" class="InsideContent">
+                   Controls: 
+                   <br>
+                   Move left: ←  
+                   <br>
+                   Move right: →
+                   <br>
+                   Jump:
+                   <br>
+                   Space bar
+                   <br>
+                   Life number:
+                   1
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src= "js/menu.js"> </script>
+</body>
+</html>

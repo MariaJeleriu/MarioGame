@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+.row {
+	width: 100%;
+	text-align: center;
+    
+}
+
+.block {
+	display: inline-block;
+}
+
+.InsideContent {
+	display: inline-block;
+}
+
+.coin {
+	position: absolute;
+	margin-left: 0px;
+	margin-top: -3px;
+    padding-right: 5px;
+	width: 60px;
+	height: 60px;
+	background: url('https://i.imgur.com/qf3II7G.png') left center ;
+	animation: play 2s steps(10) infinite;
+}
+
+@keyframes play {
+	100% {
+		background-position: -260px;
+	}
+}
+
+#pane {
+	width: 200px;
+	margin: 0px auto -1px auto;
+	padding: 30px;
+	font-family: 'VT323', monospace;
+	text-align: center;
+}
+
+#menu-item {
+	font-size: 33px;
+	margin-left: 60px;
+    padding-left: 5px;
+	top: -10px;
+	width: 150px;
+	color: rgb(15, 15, 5);
+	cursor: default;
+	text-align: left;
+}
+
+.card {
+	background: #2596be;
+    opacity: 80%;
+	border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1{
+    text-align:center;
+
+}
